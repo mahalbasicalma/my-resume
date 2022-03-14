@@ -1,0 +1,206 @@
+<!-- In this hour I added a link to the internal section of a page, animation, changed some properties and added a few more images. -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='UTF-8'/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Neuton:wght@200&display=swap"
+        rel="stylesheet">
+    <title>Resume</title>
+</head>
+
+<body>
+    <style>
+        h1 {
+            font-family: Neuton;
+            font-size: 45px;
+            height: 30px;
+            color: rgb(200, 211, 194);
+        }
+
+        h2 {
+            font-family: Kaushan Script;
+            font-size: 40px;
+            color: rgb(186, 209, 172);
+            animation-duration: 5s;
+            animation-name: name;
+            animation-direction: reverse;
+            animation-iteration-count: infinite;
+        }
+
+        h3 {
+            font-size: 30px;
+            margin-left: 110px;
+            margin-top: 100px;
+            height: 10px;
+            color: rgb(186, 209, 172);
+        }
+
+        p {
+            font-size: 20px;
+            margin-left: 100px;
+            height: 2px;
+            color: rgba(211, 216, 207, 0.815);
+            margin-right: 250px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            text-align: justify;
+
+        }
+
+
+        .smaller-image {
+            width: 170px;
+            height: 170px;
+            border-radius: 10%;
+            float: left;
+            margin-top: 90px;
+            margin-left: 100px;
+            border-style: groove;
+
+
+        }
+
+        .box1 {
+            text-align: center;
+            margin-left: 120px;
+            margin-top: 80px;
+            margin-right: 200px;
+            
+
+        }
+        @keyframes name {0% {
+        color: rgb(244, 247, 243);}
+        50% {
+        color:rgba(205, 231, 236, 0.404);}
+        100% {
+        color:rgb(200, 211, 194);}}
+
+
+
+        .move {
+            margin-left: 110px;
+        }
+
+        body {
+            background-image: url(https://c4.wallpaperflare.com/wallpaper/546/713/211/chemistry-formula-science-wallpaper-preview.jpg);
+            margin-left: 200px;
+            margin-right: 190px;
+            margin-top: 100;
+        }
+       
+}
+
+        @media (max-width: 760px) body {
+            background-image: url(https://c4.wallpaperflare.com/wallpaper/546/713/211/chemistry-formula-science-wallpaper-preview.jpg);}
+        }
+
+        @media (max-height: 1900px) body {
+            background-image: url(https://c4.wallpaperflare.com/wallpaper/546/713/211/chemistry-formula-science-wallpaper-preview.jpg);}
+        
+
+        .background {
+            border-width: 4px;
+            border-style: double;
+            background-color: rgba(92, 81, 81, 0.979);
+           
+
+
+        }
+
+        .lab {
+            width: 300px;
+            height: 190px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            border-width: 3px;
+            border-style: double;
+            
+        }
+
+        .lab1 {
+            width: 200px;
+            height: 220px;
+            margin-top: 30px;
+            margin-left: 110px;
+            margin-bottom: 10px;
+            border-width: 3px;
+            border-style: double;
+        }
+        .block {margin-top: 150px;}
+        .lab2 {width: 220px;
+        height: 250px;
+    
+border-style: double;
+float:right;
+margin-right: 100px;}
+a { color: rgb(186, 209, 172);
+
+
+
+}
+
+    </style>
+    <div class="background">
+
+        <img class="smaller-image" src="IMG-d5cb36297ead4e6621620c485a951964-Vko.jpg" alt="My profile photo">
+        
+        <div class="box1">
+            <h1>Hi, I'm Alma Mahalbašić</h1>
+            <h2><em>Welcome to my resume!</em></h2>
+            <a href="#contact">Contact here!</a>
+        </div>
+       
+       
+
+
+<div class="block">
+        <h3><strong><u>Profile:</u></strong></h3>
+        <p>Student at the <a href="http://unitz.ba/" target="blank"><em>University of Tuzla</em></a>, Food Technology.
+            I'm looking for an <u>internship</u> in a <em>food technology lab</em>. </p>
+        <h3><strong><u>Experience:</u></strong></h3>
+        <p>
+        <div class="move">
+            <ul style="color:rgb(211, 216, 207, 0.815); font-size: 20px;">
+                <li>monitoring the studying proces, help with organization</li>
+                <li>lab work experience</li>
+            </ul>
+        </div>
+
+        </p>
+        <img class="lab1" src="received_3998050240253315.jpeg">
+        
+        <h3><strong><u>Education:</u></strong></h3>
+        <p>High School Diploma, <a href="https://bbm.edu.ba/" target="blank"><em>Behram-begova medresa</em></a></p>
+        <h3><strong><u>Skills:</u></strong></h3>
+        <p>
+        <div class="move">
+            <ul style="font-size: 20px; color:rgb(211, 216, 207, 0.815)">
+                <li>teamwork</li>
+                <li>organization</li>
+                <li>English language</li>
+                <li>communication skills</li>
+                <li>laboratory work</li>
+            </ul>
+            <img class="lab" src="lab.jpg">
+            <img class="lab2" src="received_416970049659645.jpeg">
+        <h3 id="contact"><u><strong>Contact:</strong></u></h3>
+            <ul style="color:rgb(211, 216, 207, 0.815); ">
+                <li>email: <u>almamahalbasic32@gmail.com</u></li>
+                <li>phone:</li>
+                <li>instagram:</li>
+
+            </ul>
+            </p>
+        </div>
+    </div>
+    
+    
+
+</div>
+
+</body>
+
+</html>
